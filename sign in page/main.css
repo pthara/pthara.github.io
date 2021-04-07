@@ -1,0 +1,230 @@
+header {
+    font-family: 'Quicksand', sans-serif; 
+    
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+    color: azure;
+    
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    background-image: linear-gradient(to bottom, rgba(194, 176, 176, 0.397), rgb(0, 0, 0));
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: larger;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #000000;
+  }
+  
+  .active {
+    background-color: #cf0000; 
+    background-image: linear-gradient(to bottom, rgba(230, 88, 88, 0.589), #940000);
+  }
+
+.active:hover {
+    background-color: rgb(138, 15, 15);
+}
+
+.rightlogo {
+    float: right;
+    padding: 10px;
+}
+
+.logo {
+    height:50px;
+    padding-right: 20px;
+}
+
+
+.space {
+    padding-bottom: 4px;
+}
+
+.mySlides {
+    display:none;
+}
+
+.content{
+    width:100%;
+}
+
+.center{
+    text-align:center!important
+}
+
+.firstline {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    padding-top:30px;
+    padding-bottom: 10px;
+}
+
+.intro {
+    list-style-type: none;
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.intropop {
+    padding-right: 40px;
+    height: 100%;
+}
+
+.textpop {
+    float: right;
+    color: white;
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+.youtube {
+    text-align: center;
+    font-size: 30px;
+    background: #cf0000;
+    
+    
+}
+
+.ytintro {
+    background-color: #cf0000;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    line-height: 80px;
+}
+
+
+.video {
+    
+    min-width: 100%;
+    background-color: #cf0000;
+}
+
+.revintro {
+    font-size: 30px;
+    line-height: 80px;
+    text-align: center;
+}
+
+#myform {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+
+input {
+    font-size: 25px;
+    text-align: center;
+}
+
+::-webkit-input-placeholder {
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+:placeholder-shown {
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+textarea {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+#movietitle {
+    height: 60px;
+    min-width: 60%;
+}
+
+.moviegenre {
+    font-size: 20px;
+    text-align: center;
+}
+
+select {
+    min-width: 60%;
+    height: 60px;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+.textreview h2 {
+    font-size: 30px;
+}
+
+.review {
+    height: 200px;
+    min-width: 60%;   
+}
+
+.submit {
+    height: 60px;
+    width: 150px;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #cf0000;
+    color: white;
+    border-radius: 10px;
+    box-shadow: none;
+    text-align: center;
+}
+
+
+footer {
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+    background-color: #333;
+    background-image: linear-gradient(to bottom, rgba(194, 176, 176, 0.397), rgb(0, 0, 0));
+    position:relative;
+    display: flex;  
+    justify-content: center;  
+    height: 50px;
+  
+  } 
+  
+  footer a {
+    margin: 5px;
+    text-decoration: none;
+  }
+  
+  .social-icon {
+    display: inline-flex;  
+    width: 50px;
+    height: 50px;
+    color: black;
+    background-color:white;
+    justify-content: center;  
+    align-items: center;  
+    border-radius: 50%;  
+  }
+  
+  .social-icon:hover {
+    color:red;  
+    transition: color 0.3s ease-in;
+  }

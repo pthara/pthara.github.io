@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>reel reviews homepage</title>
+      <link rel="stylesheet" href="main.css" Type="text/css" media="all">
+      <script src="script.js"></script>
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+  
+    <body>
+    <header>
+      <ul class="navbar">
+          <li> <a href="/index.html">Sign In</a></li>
+          <li> <a href="../gallery page/gallery.html">Gallery</a></li>
+          <li> <a href="../review page/index.html">Reviews</a></li>
+          <li> <a class="active" href="#contactus">Contact Us</a></li>
+
+          <div class="rightlogo">
+            <li> <img class="logo" src="logo.png"></li>
+          </div>
+      </ul>
+    </header>
+
+    <h1 class="title">Contact Us</h1>
+
+    <form class="container" id="myForm" onsubmit="send()">
+      <label for="fname">First Name</label>
+      <input class="input" type="text" id="fname" name="firstname" placeholder="Your name..." required><br>
+
+      <label for="lname">Last Name</label>
+      <input class="input" type="text" id="lname" name="lastname" placeholder="Your last name..." required><br>
+
+      <label for="country">Country</label>
+      <select class="input" id="country" name="country">
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="wales">Wales</option>
+        <option value="england">England</option>
+        <option value="scotland">Scotland</option>
+      </select><br>
+
+      <label for="email">Email</label>
+      <input class="input" type="email" placeholder="Email address" required>  
+
+      <div class="Message">
+      <label for="Message">Message</label>
+      <div class="Message-box">
+      <textarea id="Message" type="message"  class="Message-form" placeholder="Message" rows="6" maxlength="3000" required></textarea>
+      </div>
+      </div>
+      <input class="submitButton" type="submit" value="Submit">
+    </form>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	  <script src="./js/navbar.js"></script>
+
+  </body>
+
+  <footer>
+    <a href="https://www.facebook.com/"><span class='social-icon'><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+    <a href="https://www.instagram.com/?hl=en"><span class='social-icon'><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+    <a href="https://www.pinterest.com/"><span class='social-icon'><i class="fa fa-pinterest-p" aria-hidden="true"></i></span></a>
+    <a href="https://twitter.com/?lang=en"><span class='social-icon'><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+  </footer>
+
+</html>

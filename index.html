@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>reel reviews homepage</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html"; charset="UTF-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="sign in page/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script language="Javascript">
+      function showInput() {
+        document.getElementById('display').innerHTML = 
+          document.getElementById("user_input", "movietitle").value;
+      }
+    </script> -->
+   
+    </head>
+    <header>
+        <ul class="navbar">
+            <li><a class="active" href="#signin">Sign In</a></li>
+            <li><a href="./gallery page/gallery.html">Gallery</a></li>
+            <li><a href="./review page/index.html">Reviews</a></li>
+            <li><a href="./Contact us page/index.html">Contact Us</a></li>
+            <div class="rightlogo">
+            <li><img class="logo" src="/sign in page/logo.png"></li>
+            
+            </div>
+          </ul>
+          
+          <div> 
+            
+    </header>
+    <body>
+    <div class="space">
+
+    </div>
+    <h2 class="center">Reel Reviews</h2>
+    
+    <div class="content">
+      <img class="mySlides" src="/sign in page/moneyheist.jpg" style="width:100%">
+      <img class="mySlides" src="./sign in page/oceans8.jpg" style="width:100%">
+      <img class="mySlides" src="./sign in page/prisonbreak.jpg" style="width:100%">
+      <img class="mySlides" src="./sign in page/blackmirror.jpeg" style="width:100%">
+    </div>
+    
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+    <div class="welcome">
+        <h1 class="firstline">Explore Reel Reviews</h1>
+    </div>
+
+    <div>
+
+        <ul class="intro">
+            <li class="intropop"><img src="./sign in page/popcorn.png" class="popcorn"></li>
+            <li class="textpop"><p>Reel Reviews has curated the most popular TV Shows and movies across streaming platforms like Netflix and Amazon Prime! 
+                Do you have any thoughts on anything you've watched lately? 
+                Update our database with your own personal review below! </p></li>
+        </ul>       
+    </div>
+
+    <div class="youtube">
+      <h2 class="ytintro"><strong>Check out the latest 2021 movie trailers brought to you by Entertainment Access!</strong></h2>
+      <iframe class="video" width="966" height="543" src="https://www.youtube.com/embed/ArLCH1aR9N4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    
+    </div>
+
+    <div class="revintro">
+      <h2>Share your own movie or TV show reel review here...</h2>
+    </div>
+
+      <form id="myform">
+
+        <div>
+        
+        <label for="movietitle">Title:</label><br><br>
+        <input type="text" name="movietitle" id="movietitle" placeholder="Enter movie title">
+      
+        </div>
+
+        <br>
+
+        <div class="moviegenre">
+          <h2>Genre:</h2>
+        </div>
+
+        <div class="custom-select">
+          <select>
+            <option value="0" style="text-align: center;">Select Genre:</option>
+            <option value="1"> Romance </option>
+            <option value="2"> Horror </option>
+            <option value="3"> Comedy </option>
+            <option value="4"> Thriller </option>
+            <option value="5"> Sci-Fi </option>
+            <option value="6"> Historical </option>
+            <option value="7"> Action </option>
+            <option value="8"> Documentary </option>
+            <option value="9"> Adventure </option>
+            <option value="10"> Animation </option>
+
+
+          </select>
+        </div>
+
+        <div class="textreview">
+          <h2 >Review</h2>
+          <label for="review"></label>
+          <textarea class="review" name="review" cols="40" rows="5" placeholder="Tell us wat you thought..." id="user_input"></textarea>
+        </div>
+        <br>
+        <div>
+          <input type="submit" class="submit"><br/>
+        </div>
+      </form>
+<br>
+     
+      <!-- <input type="submit" class="submit" onclick="showInput();"><br/> -->
+
+      <!-- <label>Your Review... </label>
+      <p><span id="display"></span></p> -->
+
+    </div>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="./js/navbar.js"></script>
+
+  
+  </body>
+    
+    <footer>
+      <a href="https://www.facebook.com/"><span class='social-icon'><i class="fa fa-facebook" aria-hidden="true"></i></span></a>
+      <a href="https://www.instagram.com/?hl=en"><span class='social-icon'><i class="fa fa-instagram" aria-hidden="true"></i></span></a>
+      <a href="https://www.pinterest.com/"><span class='social-icon'><i class="fa fa-pinterest-p" aria-hidden="true"></i></span></a>
+      <a href="https://twitter.com/?lang=en"><span class='social-icon'><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+    </footer>
+    
+
+    </html>

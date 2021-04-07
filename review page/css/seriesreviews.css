@@ -1,0 +1,284 @@
+
+.item-type-a, .item-type-b {
+position: relative;
+}
+
+.item-inner {
+position:relative;
+}
+
+.item-type-a > h1, .item-type-b > h1, .item >h1 {
+font-family: "Special Elite";
+font-style: normal;
+text-align: center;
+display: block;
+font-size: 50px;
+line-height: 40px;
+margin: 0 auto;
+font-weight: 700;
+color: #333;
+}
+    
+    
+.browse-list-large td{
+padding-top:20px
+}
+
+
+.browse-list-large .clamp-image-wrap{
+padding:20px 20px 20px 0px!important;
+position:relative;
+vertical-align:top
+}
+
+.browse-list-large .clamp-image-wrap .must-see{
+ width:100px;
+ position:absolute;
+ bottom:35px;
+ left:50%;
+ transform:translateX(-50%);
+ margin-left:-90px;
+ margin-top: 45px;
+}
+
+.browse-list-large .title{
+font-size:30px;
+color:#424242;
+margin-bottom:10px;
+margin-top: 10px;
+}
+
+.browse-list-large,.browse-list-large .summary{
+font-size:18px;
+line-height:28px;
+margin-bottom:22px;
+margin-right: 22px;
+text-align: justify;
+}
+
+.browse-list-large .summary_row:after{
+margin-bottom:15px;
+content:''
+}
+
+.browse-list-large .spacer{
+display:block;
+margin-bottom:50px
+}
+
+.browse-list-large .mustsee{
+padding-right:80px
+}
+
+.browse-list-large .details_wrapper{
+width:100%!important
+}
+
+.browse-list-large .browse-score-clamp{
+padding-top:30px;
+padding-bottom:30px
+}
+
+.browse-list-large .browse-score-clamp:after{
+content:'';
+clear:both;
+display:block
+}
+
+
+.browse-list-large .browse-score-clamp .title{
+font-size:16px;
+font-weight:bold;
+display:block
+}
+
+
+.browse-list-large .browse-score-clamp .clamp-metascore,.browse-list-large .browse-score-clamp .clamp-userscore{
+width:50%;
+display:inline-block;
+float:left;
+}
+
+
+.clamp-list{
+font-family:"Arial"!important;
+width:100%
+ }
+        
+.clamp-list tr{
+position:absolute;
+border-bottom:#ccc 1px solid
+}
+        
+.clamp-list tr.spacer{
+        border:0;
+        display:block 
+        }
+        
+.clamp-list td {
+        vertical-align:top;
+        padding-top:0;
+        word-break: break-word; // to make content justify
+        overflow: scroll;
+        }
+        
+.clamp-list .clamp-image-wrap{
+        padding:0 0 30px 0;
+        position:relative;
+        width:100px;
+        display:block;
+        margin: 20px;
+}
+        
+.clamp-list a:hover h3{
+            color:#fdd030!important
+        }
+        
+.clamp-list .clamp-image-wrap .must-see{
+        width:70px;
+        position:absolute;
+        top:95px;
+        left:50%;
+        transform:translateX(-50%)
+        }
+        
+        
+.clamp-list .clamp-summary-wrap{
+        padding:0 0 30px 16px;
+        position:relative
+        }
+
+
+.clamp-list .clamp-summary-wrap h3{
+margin-bottom:10px;
+font-size:20px;
+font-weight:bold;
+max-width:100%;
+text-overflow:ellipsis;
+overflow:hidden
+}
+
+.clamp-list .clamp-summary-wrap .summary{
+overflow:hidden;
+display:-webkit-box;
+-webkit-line-clamp:3;
+-webkit-box-orient:vertical;
+max-height:84px;
+text-overflow:ellipsis;
+word-break:break-word
+}
+
+.clamp-list .clamp-summary-wrap .summary a{
+display:inline-block;
+max-width:100%
+}
+
+.clamp-list .clamp-details{
+display:block;
+margin-bottom:10px;
+font-size:14px;
+color:#999
+}
+
+.clamp-list 
+margin-top:10px;
+max-height:15px
+}
+
+.summary{
+padding-right:0
+}
+
+.clamp-list .clamp-summary-expand:checked ~ .summary{
+overflow:none;
+-webkit-line-clamp:30;
+max-height:1000px;
+word-break:break-word
+}
+
+.clamp-list .clamp-summary-wrap .clamp-summary-expand{
+display:none
+}
+
+.clamp-list .clamp-score-wrap{
+position:relative;
+float:right;
+margin-left:20px;
+margin-bottom:70px
+}
+
+.clamp-list .browse-score-clamp{
+display:none
+}
+
+.clamp-list .clamp-summary-expand:checked ~ .browse-score-clamp{
+display:block
+}
+
+.clamp-list label{
+position:absolute;
+bottom:15px;
+right:16px;
+font-weight:bold;
+color:#2a9fd8;
+font-size:16px
+}
+
+.clamp-list label:before{
+content:'Expand'
+}
+
+.clamp-list .clamp-summary-expand:checked ~ label:before{
+content:'Collapse'
+}
+
+.clamp-list label:hover{
+cursor:pointer
+}
+
+.clamp-list .fa-caret-up,.clamp-list .fa-caret-down{
+position:absolute;
+bottom:16px;
+right:0
+}
+
+.clamp-list .clamp-summary-expand ~ .fa-caret-up{
+display:none
+}
+
+.clamp-list .clamp-summary-expand:checked ~ .fa-caret-up{
+display:block
+}
+
+.clamp-list .clamp-summary-expand:checked ~ .fa-caret-down{
+display:none
+}
+
+.clamp-list .clamp-summary-expand:checked+.clamp-score-wrap{
+display:none
+}
+
+
+.label{
+font-weight:bold;
+display: none;
+}
+
+.form_area .checkbox{
+height:15px;
+width:15px;
+margin:0;
+padding:0;
+vertical-align:middle;
+line-height:17px
+}
+
+
+
+
+
+
+
+
+
+

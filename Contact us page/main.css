@@ -1,0 +1,174 @@
+/* Top of page */
+body {
+  background-image: url("peakyblinderstommy.jpg");
+  background-color:black;
+  margin: 0px;
+  font-family: 'Quicksand', sans-serif;
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+  background-image: linear-gradient(to bottom, rgba(194, 176, 176, 0.397), rgb(0, 0, 0));
+  width: 100%;
+  z-index:9999;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+  font-size: larger;
+}
+
+li a:hover:not(.active) {
+  background-color: #000000;
+}
+
+.active {
+  background-color: #CF0000;
+  background-image: linear-gradient(to bottom, rgba(230, 88, 88, 0.589), #940000);
+}
+
+.active:hover {
+  background-color: rgb(138, 15, 15);
+}
+
+.rightlogo {
+  float: right;
+  padding: 10px;
+}
+
+.logo {
+  height: 50px;
+  padding-right: 20px;
+}
+
+/* Contact Us Form */
+.title {
+  color:white;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+.Message{
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.Message-box {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding-top: 10px;
+  width: 40%;
+  overflow: scroll;
+}
+
+.Message-form {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  outline: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+
+
+.Message-form:focus {
+  border: 1px solid #313131;
+}
+
+select.Message-form[size], select.Message-form[multiple] {
+  height: auto;
+}
+
+textarea.Message-form{
+  font-family: -apple-system, Arial, sans-serif;
+  height: auto;
+}
+
+.submitButton {
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+  color:white;
+}
+
+.container {
+  padding: 20px;
+  color:white;
+}
+
+footer {
+  padding: 20px 0px 20px 0px;
+  background-color: none;
+  position:relative;
+  display: flex;  
+  justify-content: center;  
+  height: 50px;
+  margin-top: 100px;
+} 
+
+footer a {
+  margin: 5px;
+  text-decoration: none;
+}
+
+.social-icon {
+  display: inline-flex;  
+  height: 50px;
+  color: black;
+  background-color:white;
+  justify-content: center; 
+  align-items: center;  
+  border-radius: 50%;  
+}
+
+.social-icon:hover {
+  color:red;  
+  transition: color 0.3s ease-in;
+}
